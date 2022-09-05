@@ -5,6 +5,7 @@ interface Props {
     children?: React.ReactNode;
     container?: React.HTMLAttributes<HTMLDivElement>;
     prepend?: boolean;
+    containerId?: string | number;
 }
 declare const Control: (props: Props) => JSX.Element;
 export default Control;
